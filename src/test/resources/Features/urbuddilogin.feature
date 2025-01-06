@@ -9,9 +9,16 @@ Feature: Feature to test the urBuddi Login Page
     And user close the browser
     
    
-  Scenario: Unsuccessful login with valid credentials
+  Scenario: Unsuccessful login with invalid credentials
     Given user is on the login page
     When user enters a invalid username "nikhil.pachipala@optiworks.com" and password "1234678"
     And clicks the login button
     Then user should see an error message 
     And user close the browser
+    
+    
+    
+    
+    
+    
+  
